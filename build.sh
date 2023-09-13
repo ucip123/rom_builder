@@ -4,8 +4,8 @@ source /drone/src/config.sh
 
 # Email for git
 ci_repo=$(cat /drone/src/.git/config | grep url | sed 's|url = https://github.com/||' | sed 's|.git||')
-git config --global user.email "$GITHUB_EMAIL"
-git config --global user.name "$GITHUB_USER"
+git config --global user.email "oppo765qq@gmail.com"
+git config --global user.name "ucip123"
 
 TELEGRAM_TOKEN=$(cat /tmp/tg_token)
 TELEGRAM_CHAT=$(cat /tmp/tg_chat)
