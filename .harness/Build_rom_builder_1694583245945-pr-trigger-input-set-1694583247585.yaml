@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_rom_builder_1694583245945-pr-trigger-input-set
+  identifier: Build_rom_builder_1694583245945prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_rom_builder_1694583245945
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
